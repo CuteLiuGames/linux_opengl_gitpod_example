@@ -16,3 +16,5 @@ g++ -pthread -o glfw_tri test_glfw_triangle.cpp ./libglad.a  -lglfw  -lGLU -lGL 
 
 //   OpenGL reference
 https://learnopengl.com/Getting-started/OpenGL
+g++ -pthread -o glfw_sha hello_shader.cpp ./libglad.a  -lglfw  -lGLU -lGL -lXrandr -lXxf86vm -lXi -lXinerama -lX11 -lrt -ldl
+g++ -pthread -o glfw_sha_2 hello_shader_2.cpp ./libglad.a  -lglfw  -lGLU -lGL -lXrandr -lXxf86vm -lXi -lXinerama -lX11 -lrt -ldl
